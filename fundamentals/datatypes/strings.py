@@ -4,8 +4,39 @@ name = "Hassan"
 age = "19"
 address = "Kakuri Road, Kawo Kaduna"
 
-print(name)
-print(age)
-print(address)
-
 # Methods
+name = "aliyu"
+print(name.capitalize())
+
+person = "MAsud"
+
+print(person.casefold())
+
+place = "Kaduna"
+
+print(place.center(12, "*"))
+
+print(place.count('a', 0, 6))
+
+# Exercise:
+# example :
+text = "hassan"
+print(text.capitalize())
+
+country = "EGYPT"
+print(country.casefold())
+
+text = "apple"
+print(text.center(12, "y"))
+
+name2 = "khadija"
+print(name2.count("h"))
+
+player = "cristiano"
+print(player.count("i"))
+
+phone = "+234701231212"
+phone2 = "+233701231212"
+nigerian_ext = "+234"
+print(phone.startswith(nigerian_ext))
+print(phone2.startswith(nigerian_ext))
