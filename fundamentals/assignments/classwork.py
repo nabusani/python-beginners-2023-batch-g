@@ -10,3 +10,6 @@ print(name)
 chars = []
 chars.extend(name)
 print(chars)
+
+# Q3. Using list slicing, get the first two characters from the list above
+# Q4. Without using the reverse method, reverse the list above
