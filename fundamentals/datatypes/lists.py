@@ -38,6 +38,8 @@ print(people2.count('Samuel'))
 
 # LIST OPERATIONS
 print(people2[0])
+people2[0] = "Something"
+print(people2[0])
 print(people2[1])
 print(people2[2])
 print(people2[1:3])
